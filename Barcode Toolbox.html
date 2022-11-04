@@ -546,6 +546,7 @@
 
             function makeIncrementTable(code){
                 let topTable = [...code.code];
+                
                 let bottomTable = Array();
                 for(let i = code.code.length - 1; i >= 1; i--){
                     bottomTable.push('<input type="radio" name="incrementRadio" value="' + i + '" />');
